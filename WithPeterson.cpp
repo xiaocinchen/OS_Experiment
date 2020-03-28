@@ -13,7 +13,6 @@ int main() {
 	HANDLE hThread[2];
 	int nPID0 = 0, nPID1 = 1;
     start = GetTickCount();
-    start = clock();
 	if ((hThread[0] = CreateThread(NULL, 0, ThreadExecutiveZGS, &nPID0, 0, NULL)) == NULL) {
 		printf("线程 ThreadExecutiveZGS-0 创建失败！ 创建失败！ \n");
 		exit(0);

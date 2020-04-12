@@ -172,7 +172,7 @@ void ReleaseResources(){
                 }
             }
         }
-        if (flag = 1) continue;
+        if (flag == 1) continue;
         for (int j=0;j<N;j++){
             Available[j] = Available[j] + resources[j];
             Allocation[i][j] = Allocation[i][j] - resources[j];

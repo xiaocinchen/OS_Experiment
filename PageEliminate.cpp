@@ -584,5 +584,5 @@ void ImprovedClockAlgo(){
             count++;
     }
     PageMissingRate5 = (double(count)-3)/double(num) * 100;
-    printf("SimpleClockAlgo缺页率为%%%lf\n\n",PageMissingRate5); 
+    printf("ImprovedClockAlgo缺页率为%%%lf\n\n",PageMissingRate5); 
 }
